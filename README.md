@@ -1,6 +1,6 @@
 # gallery livewire
 
-this project is sample laravel livewire photo gallery with Admin panel , Category , Tags and Comments
+This project is sample laravel livewire photo gallery with Admin panel , Category , Tags and Comments
 
 ![gallery livewire](https://github.com/mahdi-mh/gallerylivewire/public/images/galleryLivewire.png)
 
@@ -23,7 +23,7 @@ cd gallerylivewire
 ```
 
 ## Usage
-* make MySql database ( default name is gallerylivewire ) and config .env file
+* Make MySql database ( default name is gallerylivewire ) and config .env file
 
 ```composer
 composer install
