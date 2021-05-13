@@ -18,6 +18,7 @@ class Posts extends Component
     public $tags;
     public $imagePath;
     public $postId = null;
+    public $type = null;
     public $createdMode = false;
     public $updateMode = false;
     public $search = '';
@@ -207,6 +208,11 @@ class Posts extends Component
             $data = Post::orderBy('created_at', 'desc')->paginate(6);
         }
 
-        return view('livewire.post.mainPost',['posts' => $data]);
+        if ($this->type != null && $this->type == 'indexGallery'){
+            return view('livewire.post.indexGalleryPosts',['posts' => $data]);
+        } else {
+            return view('livewire.post.mainPost',['posts' => $data]);
+        }
+
     }
 }

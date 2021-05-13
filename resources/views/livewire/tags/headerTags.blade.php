@@ -10,11 +10,3 @@
         </h5>
     </div>
 </div>
-
-<div class="my-3 p-3 bg-white rounded shadow-sm">
-    <div class="form-row">
-        <div class="col-12">
-            <input wire:model="search" type="text" class="form-control" id="validationDefault03" required placeholder="Search ..." />
-        </div>
-    </div>
-</div>

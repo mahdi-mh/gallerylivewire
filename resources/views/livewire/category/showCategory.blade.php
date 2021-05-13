@@ -1,4 +1,12 @@
 <div class="my-3 p-3 bg-white rounded shadow-sm">
+    <div class="form-row">
+        <div class="col-12">
+            <input wire:model="search" type="text" class="form-control" id="validationDefault03" required placeholder="Search ..." />
+        </div>
+    </div>
+</div>
+
+<div class="my-3 p-3 bg-white rounded shadow-sm">
     <h6 class="border-bottom border-gray pb-2 mb-0">Recent Categories</h6>
     @foreach ($categories as $category)
         <div class="text-muted justify-content-between align-items-center align-content-center d-flex border-bottom border-gray" style="margin: 4px 0px;padding: 4px 0px;">

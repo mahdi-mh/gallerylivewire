@@ -1,6 +1,9 @@
-@extends('layouts.mainTemplate.container')
-@section('content')
-    @if($posts !== 0)
+<div class="container">
+    <div class="row mx-0 my-3">
+        <input wire:model="search" type="text" class="form-control" id="validationDefault03" required placeholder="Search ..." />
+    </div>
+
+    <div class="row">
         @foreach ($posts as $post)
             <div class="col-md-4">
                 <a href="{{ $post->GetSingleRout()  }}" >
@@ -14,8 +17,9 @@
                         </div>
                     </div>
                 </a>
-
             </div>
         @endforeach
-    @endif
-@endsection
+    </div>
+    {{ $posts->links() }}
+
+</div>
