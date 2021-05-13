@@ -4,6 +4,19 @@ This project is sample laravel livewire photo gallery with Admin panel , Categor
 
 ![gallery livewire](https://raw.githubusercontent.com/mahdi-mh/gallerylivewire/master/public/images/galleryLivewire.png)
 
+## Description
+
+There are many things you can use to test and practice:
+
+* Implementing Bootstrap 4.6
+* Complete implementation of migration, factory and seeder
+* Implement livewire controllers and components and layouts
+* Implement admin panel and custom authentication
+* Implement Alert with sweetAlert2
+* Implement CURL for all models with livewire without page refresh
+* Implement a controller class to store images in various sizes that are easily customizable
+* Implement comments by managing and publishing with admin approval
+
 ## Installation
 
 Use the package manager [git](https://git-scm.com/downloads/) to clone this project
