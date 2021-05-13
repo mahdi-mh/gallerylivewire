@@ -2,7 +2,7 @@
 
 This project is sample laravel livewire photo gallery with Admin panel , Category , Tags and Comments
 
-![gallery livewire](https://github.com/mahdi-mh/gallerylivewire/public/images/galleryLivewire.png)
+![gallery livewire](https://raw.githubusercontent.com/mahdi-mh/gallerylivewire/master/public/images/galleryLivewire.png)
 
 ## Installation
 
