@@ -1,6 +1,10 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
 
-    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMainContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse w-100 order-1 order-md-0" id="navbarMainContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item {{ (request()->route()->getName() == 'home') ? 'active' : '' }}">
                 <a class="nav-link" href="/">home</a>
@@ -22,10 +26,14 @@
     </div>
 
     <div class="mx-auto order-0">
-        <a class="navbar-brand mx-auto" href="/">GalleryLivewire</a>
+        <a class="navbar-brand mx-auto" href="/">{{ env('app_name') }}</a>
     </div>
 
-    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarAuth" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fa fa-user"></i></span>
+    </button>
+
+    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarAuth">
         <ul class="navbar-nav ml-auto">
             @if(auth()->check())
                 <li class="nav-item">

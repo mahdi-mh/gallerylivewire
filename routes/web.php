@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('indexGalleryPosts',['posts' => Post::all()->sortDesc()->take(6)]);
+    return view('indexGalleryPosts',['posts' => Post::all()->sortDesc()->take(9)]);
 })->name('home');
 
 Route::namespace('App\Http\Controllers\Auth')->group(function () {
