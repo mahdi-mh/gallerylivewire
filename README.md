@@ -13,7 +13,7 @@ There are many things you can use to test and practice:
 * Implement livewire controllers and components and layouts
 * Implement admin panel and custom authentication
 * Implement Alert with sweetAlert2
-* Implement CURL for all models with livewire without page refresh
+* Implement CRUD for all models with livewire without page refresh
 * Implement a controller class to store images in various sizes that are easily customizable
 * Implement comments by managing and publishing with admin approval
 
